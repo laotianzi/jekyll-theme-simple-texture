@@ -23,7 +23,7 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: This is a bolg
+title: This is a blog
 description: "New World"
 keywords: 'jekyll,theme,gem-based,blog'
 author: 
@@ -39,17 +39,18 @@ author:
     - name: instagram
       url:
     - name: linkedin
-      url:
+      url: https://www.linkedin.com/in/tian-yu-a51b6824/
     - name: stackoverflow
       url:
     - name: twitter
-      url: TinaMissYi
+      url: https://twitter.com/TinaMissYi
     - name: vk
       url:
 home:
   section1: <h1>Tian Yu</h1>
-  section2: <h2>Data Scientist</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/laotianzi/laotianzi.github.io" title="View on GitHub"></a></div>
+  section2: <h1>于沺</h1>
+  section3: <h2>Data Scientist</h2>
+  section4: <div class="social-links"><a class="ico-github btn" href="https://github.com/laotianzi/laotianzi.github.io" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License
   cc_license_image: /assets/images/theme/cc-by-sa.png # Choose one at https://creativecommons.org/choose/
