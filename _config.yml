@@ -23,8 +23,8 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: Tian Yu
-description: "A gem-based responsive simple texture styled Jekyll theme."
+title: This is a bolg
+description: "New World"
 keywords: 'jekyll,theme,gem-based,blog'
 author: 
   name: Tian Yu
@@ -47,8 +47,8 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Challenge 1</h1>
-  section2: <h2>Benson Project</h2>
+  section1: <h1>Tian Yu</h1>
+  section2: <h2>Data Scientist</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License
