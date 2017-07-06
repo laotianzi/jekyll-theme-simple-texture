@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "test"
+title: "Challenge 1 Benson Project"
 description: "The first test post for Simple Texture theme."
 categories: [Challenges]
 tags: [pandas, jekyll]
