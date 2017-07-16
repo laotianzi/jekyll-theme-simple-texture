@@ -2,7 +2,7 @@
 layout: post
 title: "Challenge 1 Benson Project"
 description: "The first test post for Simple Texture theme."
-categories: [Challenges]
+categories: [project]
 tags: [pandas, jekyll]
 redirect_from:
   - /2017/07/03/
