@@ -47,7 +47,7 @@ Is it true that the rating will be low when the course is hard? From the correla
 <br>
 Figure 1. The correlation between rating and difficulty
 <br>
-![rating vs difficulty]({{ site.url }}/images/rating-difficultylevel.png)
+![rating vs difficulty]({{ site.url }}/images/rating-difficultylevel.png){: .center-image}{:height="40%" width="40%"}
 <br>
 Let's look into this set of data. The model is simple, created as Rating vs. difficulty and number of rating. But the number of rating is negatively skewed, so firstly any rating with less than 2 ratings were dropped, then squareroot was applied also with log. This transform raises R-squared 0.001.
 
@@ -60,7 +60,7 @@ Figure 2. The transform of number of rating
 <br>
 Figure 3. Fitting the model of rating and difficulty
 <br>
-![rating difficulty]({{site.url}}/images/rating-difficulty.png)
+![rating difficulty]({{site.url}}/images/rating-difficulty.png){:height="600px" width="450px"}
 <br>
 
 
@@ -73,7 +73,7 @@ At first, I built a model with overall rating with all other 10 features, and it
 <br>
 Figure 4. The features to the overall quality rating
 <br>
-![campus rating]({{site.url}}/images/sch-rating_feature.png)
+![campus rating]({{site.url}}/images/sch-rating_feature.png){:height="300px" width="300px"}
 <br>
 
 So I changed to another model,
@@ -85,7 +85,7 @@ I tried removing any feature from this model, it will not as good as with all fe
 <br>
 Figure 5. New model: the features to Happiness
 <br>
-![new model campus rating]({{site.url}}/images/new sch-rating_featrue.png)
+![new model campus rating]({{site.url}}/images/new sch-rating_featrue.png){:height="300px" width="300px"}
 <br>
 
 ## Answer 3： Teaching quality will not influence the rating of universities.
@@ -119,3 +119,6 @@ University Data is linearly correlated. Involve other source
 
 ### PostScript
 The motivation of this story was very personal. My adviser who is a distinguished professor in Physics, teaches strictly and the lectures are high quality. He likes the students who fully dedicate to the course. But many students choose physics course only for science credits, they want easy lecture easy finals no quizs and no gain in physics. That's why my professor got lower and lower rating when he maintains his teaching quality.
+
+#### Reference
+How to resize figure: https://github.com/hakimel/reveal.js/issues/1349
