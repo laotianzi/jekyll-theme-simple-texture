@@ -1,0 +1,166 @@
+prepare:
+
+- link to projects
+	- blog
+		-git repo
+			-notebook clean up
+		-slides
+projects:
+Person of Interest: OpenCV Tracking API | TensorFlow | Deep learning | AWS
+• Enable the camera watch for public security at New York Time Square.
+• Developing a detection and tracking system for one of the public cameras.
+• Setting notification of abnormal counts of people and their moving speed.
+
+project4_fletcher_NYTtech
+Technology Trend in New York Times: rest API | NLP | LDA | Word2Vec | PCA | Clustering | MongoDB
+• Summarized top topics from frontier technology news in 1945-2017 using New York Times API.
+• Extracted public relationship network of aimed company from mass data.
+
+Climate Change and Human activities: AutoRegression | Random Forests | Flask | D3
+• Predicted which countries' temperature would change severely with climate and country data.
+• Applied AutoRegression method to avoid outliers for temperature categories in countries.
+• Gave interactive data visualizations of results.
+
+Rating My Professors: Web Scraping | Linear Regression
+• Revealed key factors that campuses get higher rating.
+• Acquired professors and campus rating data from web.
+• Optimized linear regression models to find correlation between professors and campus rating.
+
+MTA
+
+
+
+-interview questions
+	-what is the role of a data scientist and what actually is data science?
+		Data Scientist is the iterative process to acquire, clean the data and then build models, again check the result and goes back to Exploration process finally create the reports and
+
+	-what are the data structures in Python?
+		lists, tuples, dictionaries, strings, sets and frozensets
+
+		The builtins data structures are: lists, tuples, dictionaries, strings, sets and frozensets. Lists, strings and tuples are ordered sequences of objects. Unlike strings that contain only characters, list and tuples can contain any type of objects. Lists and tuples are like arrays.
+
+	-How do you stay abreast on news and current trends/technology?
+		google news, quora, linkedin, blogs
+
+	-If you could have one superpower, what would it be?
+		healing
+
+	-What is standard deviation? Why do we need it?
+		 It is defined as the positive square root of the variance of a distribution.We need it to calculate by how much are the values varying from the mean value
+
+	-Describe your most recent data science project briefly. + steps
+		1. computer vision: detection and tracking system for public cameras watching for pedestrians
+		2. NLP and clustering: find the scienfic and technical trend in decades
+
+	-How can I communicate your analysis result to a non technical person?
+		give the goal and how to achive it, story telling, flow chart (decision tree, visualization).
+
+	-What was the biggest dataset you analyzed, what did you did with it, and were the results?
+
+
+
+	-self introducing
+		what to show: personality, achievements
+		insistance, caring, 
+
+		I graduated with PhD degree in Materials Science and Engineering from New Jersey Institute of Technology in 2014. 
+		The project I liked most is discovered a special property in the single crystal I made for the first time in the world. It was detected in 1960s, but not revealed. From theories developed for years and modern equipments, I was able to synthesize it and measure it. I have 8 publications in academic area which is rare in Physics.
+		
+		most recent achivement:
+		what to show: plan, positive to new tech
+		I built a tracking and detection system for public cameras from scratch for the final project in Metis and presented this project on the career day. 
+		The tools I used is OpenCv tracker and TensorFlow object detection in Python. 
+		I made plans and wrote expectations on each day to achive my goal,  with good plan,  and kept learning and searching from youtube about computer vision, also with my own algorithm
+		The reason why I chose this topic, 
+
+
+
+
+
+
+	-previous experience
+		1. small business owner
+			what to show: positive, knowing business, able to analyze and predict profit and loss
+			brief introduce the background/responsibility: 
+				a local homemade ice cream shop with partnership with classmate in elementary school. 
+				Everything was on my own in the first several months, including making ice cream, buying goods, making financial statements, training employees. 
+		
+			success: know the business, 
+					 create my own recipe, like black tea, jasmine green tea, black sesame, rose lychee, taro..., using slack to manage, 
+					 learn tax, use the skill I learnt when I prepared CFA to make financial statements, 
+					 using Excel (which is good enough) with history data to predict the next year profit and loss 
+			failure: partnership was not clear with responsibility, 
+					 why exit: from prediction, I can see it's losing every month
+
+		2. assistant professor
+			what to show: communication, management
+			main duty is teaching: 
+				lecture to physics class 5 days a week, good reputation among peers and students. When time to select course for next semester, my openings were fully filled within half an hour after it was opend. 
+			why terminate: my contract is one year. The college does not have plan to carry on the position in the next year. (They ask me back this summer, but I do not like repeated life.)
+
+		3. research associate
+			what to show: learning ability, 
+			main duty is research:
+					Use Python for modeling, find how atoms pack together in a crystal cell. The pack patter is crystall structure, which decides the physical properties of the material.
+
+	-common behavior question
+		1. How to deal with large sparse feature matrix with binary data?
+			PCA
+		2. Tell me about something not on your resume.
+
+		3. How would you handle things if you make a mistake? Do you tell the client about the mistake?
+			I will tell mistake with solution
+
+		4. Can you explain the central limit theorem to someone who is not familiar with statistics and probability?
+			when the sample size is large enough, like more than 10,000, the mean or sum will be normal distribution with same miu but less deviation. 
+
+9.27 telephone interview
+introduce myself
+introduce company
+my question:
+1. international to where, 
+2. before ZX ventures, does this company go to consulting?
+3. what team?
+
+Brizel, france, China, Africa(coming), austrilia,
+internationl, li AI, own data, 
+Team, start, engineering, data engineering, python, 
+
+accomplish, agancy, 
+5-month
+3-month 
+2-hour interview, code challenge on NLP, 
+
+
+10.3 interveiew with Next Rev Technology OR sirrom:
+
+Next Rev Technology: 
+	Our mission is to build a coalition of highly skilled technologists who are great at what they do, make a difference where they work, and have a passion for innovation. This coalition solves difficult problems, serves as leaders in niche technology arenas, and delivers quality solutions for customers in the government and commercial marketplaces.
+
+http://sirrom.io/: 
+	Sirrom.io delivers highly complex big data analytics and cloud based architectures designed for performance and scalability. Our reputation is backed by leading data scientists and elite cloud architects created through a network of company referrals. We are a rapidly expanding organization with work locations in Maryland, DC, and New York.
+	Our mission is to provide customers with the skills, training, and professional services to become successful in the Big Data and Cloud Architecture space. We deliver complete solutions from prototyping to production, while implementing cost-effective, scalable solutions with the latest technology.
+
+Question for Jason: 1. why do you want to have your own company? /
+					2. what kind of mentorship will I have?
+					3. 
+
+regression
+NLP
+image
+
+AWS, SQL, 
+
+9.27
+9.28
+9.29
+9.30
+10.1
+10.2
+
+
+
+
+
+
+
