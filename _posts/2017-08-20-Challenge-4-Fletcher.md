@@ -53,8 +53,7 @@ Let's look into this set of data. The model is simple, created as Rating vs. dif
 | Year | Key Words | What happend |
 | 1945 |			atomic, war| Still in World War II|
 | 1947 |			war, photographic|
-| 1949 |			wiener | 
-Mr. Wiener: an American mathematician and philosopher, published a book Cybernetics: Or Control and Communication in the Animal and the Machine in 1948.|
+| 1949 |			wiener | Mr. Wiener: an American mathematician and philosopher, published a book Cybernetics: Or Control and Communication in the Animal and the Machine in 1948.|
 | 1950 | 			norbert|
 | 1953 |			battery, storage|
 | 1955 |			aeronautical| Finding way to the moon |
