@@ -1,119 +1,95 @@
 ---
 layout: post
-title: "Challenge 3 McNulty Project"
-description: "Supervised learning: classification on climate change."
+title: "Challenge 5 Kojak Project"
+description: "Computer Vision: detection and tracking system."
 categories: [project]
-tags: [classification, decision tree, random forest, jekyll]
+tags: [OpenCV, TensorFlow, Computer Vision, jekyll]
 redirect_from:
-  - /2017/08/06/
+  - /2017/09/06/
 ---
 
-# Project 3 McNulty Project --- Climate Change and Human Activities
+# Project 5 Kojak Project 
+
+## Person of Interest
+
+### --- A detection and tracking system for public cameras
 
 ## Story
-Global warming is happening according to monthly global temperature data from Kaggle. To modeling climate change is a complicated problem. It's related to the sun, the sea, the current, and the human activities, etc. This project will only focus on several reasons that caused by human activities to the climate. 
+There are more than 17,000 public camers in New York City. Imagine how exhausting it is to stare at dozens of videos and search for suspicious situtions. 
+
+Why not let the computer work, to save human's vision and time, alert us of interesting moments. This project took one of the public cameras at Time Square for example. Normally, in front of this camers, people come, sit and go. There are interesting moments, like people running across at higher speed, or street performance brings higher count of people. We can ignore the normal situation, only take a glance when computer alerts us of higher speed or big counts. 
+
+On demand, for public security purposes, a system that can count pedestrians and report the speed is built, so it can alert people when there is too many pedestrians gathering or somebody is running at possible emergency situation. 
+
+## Result
+In this project, the system focuses on two metrics, speed and count. 
+
+OpenCV trakcer APIs can track targets and gives speed, but it needs initial positions for targets, and in the camera, people will enter or exit every second. 
+
+TensorFlow object detection can recognize people in the frame and give counts, but it can not identify people, which means it can not follow the target to give speed because every frame it work from scratch with no connection. 
+
+Therefore, the system combines these two tools, let object detection find people and give counts, meanwhile pass the positions to the tracker, and tracker calculates speed for each target for the next 10 images, then detect again, forming a loop, so we can have real-time count and speed. 
+
 <br>
-How does it related to the countries? 
+Gif 1. Flask Demo
 <br>
-Which country's temperature is changing a lot?
+![p5_flask_demo]({{site.url}}/images/p5_flask_demo.gif)
+
+## Approach
+
+## 1.Tracker
+
+There are lots of tracker algorithms in OpenCV, I have tried Dense Optical flow and Lucas-Kanade Optical flow methods, but the background of Time Square is too complicated with lights and pedestrians are much, those two methods did not work well with this camera. 
+
+<br>
+Gif 2. Lucas-Kanade Optical flow
+<br>
+![p5_optical_flow]({{site.url}}/images/p5_optical_flow.gif){:height="600px" width="450px"}
+
+And compared with different methods of trakcer APIs in Gif 3, among boosting(blue), KCF(red), TLD(black) and MedianFlow(gray), MIL(green) followed the target for the longest time and least drifting. It is outstanding for this camera because instead of guessing only once for the position in the next frames, it creates a bag of multiple guesses, delivering more accurate result. 
+
+<br>
+Gif 3. OpenCV tracker APIs comparison
+<br>
+![p5_trackers]({{site.url}}/images/p5_trackers.gif){:height="600px" width="450px"}
+
+ 
+## 2.Object Detection
+
+Following a <a href="http://www.youtube.com/watch?v=K_mFnvzyLvc">tutorial</a>created by Harrison Kinsley (sentdex), I have tried two TensorFlow pre-trained models, SSD_MobileNet and Faster_RCNN_ResNet. Both of them are based on Deep Neural Network. I further trained them with the sample videos, over 1,000 people, cars and umberllas, that made the models performe better to the certain camera. 
+
+Faster_RCNN_ResNet gives more accurate result but the trade-off is processing time. I rented a GPU p2.xlarge instance to process real-time video and later, upgraded to g3.4xlarge instance, but it did not enhance very much. 
+
+Gif 4. rcnn_pretrained
+<br>
+![RCNN_pretrained_p5]({{site.url}}/images/p5_rcnn_pretrained.gif){:height="600px" width="450px"}
 <br>
 
-## Goal
-Using information scraped from the web, build linear regression models between rating of the universities and other features (including facilities, locations, food, etc.), plus rating of professors and difficulty of the courses.
+
+## Future work
+
+Make it accurate for different seasons. 
+
+Make it accurate when people are really overlapped in the camera.
 
 ## Data
-Using web scraping tools, selenium and BeautifulSoup, collect information and save to flat files. 
-- The web source is https://www.ratemyprofessors.com
-- Data: 
-    - 562 universities in NJ & NY
-    - 1501 professors in NJ
-
-- Cleaned data(drop duplications and Nans):
-	- 279 universities
-    - 219 professors
-
-The process of scraping was not so smooth, the information is buried in Javascript so that to find element by Xpath usually grabs nothing. The information did exist but it can only be accessed in resource. After getting the format of links, I catched id and university names, created new links to directly get information.
-
-## Answer 1： When the lecture is easy, you can gain high rating.
-
-Certainly. When students feels the lecture is easy to understand, and course is easy to get A, they tend to give high ratings. 
-Is it true that the rating will be low when the course is hard? From the correlation between rating and difficulty of the course, we will say it various. Difficulty is personal, but if professor can explain a difficult lecture clear, students appreciate that so the rating can be high.
-
-<br>
-Figure 1. The correlation between rating and difficulty
-<br>
-![rating vs difficulty]({{ site.url }}/images/rating-difficultylevel.png){: .center-image}{:height="40%" width="40%"}
-<br>
-Let's look into this set of data. The model is simple, created as Rating vs. difficulty and number of rating. But the number of rating is negatively skewed, so firstly any rating with less than 2 ratings were dropped, then squareroot was applied also with log. This transform raises R-squared 0.001.
-
-<br>
-Figure 2. The transform of number of rating
-<br>
-![transform rating numbers]({{site.url}}/images/transform.png)
-<br>
-
-<br>
-Figure 3. Fitting the model of rating and difficulty
-<br>
-![rating difficulty]({{site.url}}/images/rating-difficulty.png){:height="600px" width="450px"}
-<br>
-
-
-## Answer 2： Reputation is the most important factor when students rate their university.
-
-And following is facilities, reputation, ..., last one is safety.
-
-At first, I built a model with overall rating with all other 10 features, and it was perfect, but we should not use it, because everything just too linearly correlated. 
-
-<br>
-Figure 4. The features to the overall quality rating
-<br>
-![campus rating]({{site.url}}/images/sch-rating_feature.png){:height="300px" width="300px"}
-<br>
-
-So I changed to another model,
-<br>
- *happiness ~ opportunity + facilities + reputation + social + clubs + food + location + internet + safety*	
-<br>
-I tried removing any feature from this model, it will not as good as with all feature together, as a result, this model is the final model to predict the happiness. R-squared is 0.791, and train score is 0.830, while test score is 0.749. After plooting mean squared error, degree is better to stay at 1 and Ridge cross validation score is 0.828.
-
-<br>
-Figure 5. New model: the features to Happiness
-<br>
-![new model campus rating]({{site.url}}/images/new sch-rating_featrue.png){:height="300px" width="300px"}
-<br>
-
-## Answer 3： Teaching quality will not influence the rating of universities.
-
-To my surprise, the rating of professor will not correlated to the rating of universities. After thinking about it, the expaination is that adjunct professors usually take most of the teaching, who is less bonded to the universities or the students, also, the rating of professor ususally focused on one course, students will not take consider when they rate the university.
-
-<br>
-Figure 6. Correlation with happiness and averaged professor rating
-<br>
-![happiness teacher rating]({{site.url}}/images/happiness-t_rating.png)
-<br>
-<br>
-Table. Correlation and evaluation in two models
-<br>
-
-| with professor rating | overall rating | happiness |
-|-------|--------|---------|
-| correlation | -0.113 | -0.104 |
-| R-squared | 0.113 | 0.011 |
-| P-value | 0.277 | 0.317 |
-
-
-## Future work, how to improve
-Data is limited
-- Analysis tags for professors
-- Expand the data range to the country
-<br>
-University Data is linearly correlated. Involve other source
-- US news ranking 
-- Median of annual earning after 10-year enrollment
-
-### PostScript
-The motivation of this story was very personal. My adviser who is a distinguished professor in Physics, teaches strictly and the lectures are high quality. He likes the students who fully dedicate to the course. But many students choose physics course only for science credits, they want easy lecture easy finals no quizs and no gain in physics. That's why my professor got lower and lower rating when he maintains his teaching quality.
+Videos were downloaded from EarthCam
 
 #### Reference
-How to resize figure: https://github.com/hakimel/reveal.js/issues/1349
+Real-time-object recognition
+https://medium.com/towards-data-science/building-a-real-time-object-recognition-app-with-tensorflow-and-opencv-b7a2b4ebdc32
+
+Background subtraction
+http://docs.opencv.org/trunk/d1/dc5/tutorial_background_subtraction.html 
+http://docs.opencv.org/trunk/db/d5c/tutorial_py_bg_subtraction.html
+
+Foreground detection
+https://www.youtube.com/watch?v=fSLDCKeM5YE
+
+Meanshift / camshift
+http://docs.opencv.org/3.2.0/db/df8/tutorial_py_meanshift.html
+
+TensorFLow Models
+https://softwaremill.com/counting-objects-with-faster-rcnn/
+https://github.com/datitran/object_detector_app/blob/master/object_detection/g3doc/detection_model_zoo.md 
+https://www.youtube.com/watch?v=YqoGPpFfQiA 
