@@ -47,7 +47,7 @@ Is it true that the rating will be low when the course is hard? From the correla
 <br>
 Figure 1. The correlation between rating and difficulty
 <br>
-![rating vs difficulty]({{ site.url }}/images/rating-difficultylevel.png){: .center-image}{:height="40%" width="40%"}
+![rating vs difficulty]({{ site.url }}/images/rating-difficultylevel.png){: .center-image}{:height="30%" width="30%"}
 <br>
 Let's look into this set of data. The model is simple, created as Rating vs. difficulty and number of rating. But the number of rating is negatively skewed, so firstly any rating with less than 2 ratings were dropped, then squareroot was applied also with log. This transform raises R-squared 0.001.
 
