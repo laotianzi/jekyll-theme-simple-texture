@@ -117,6 +117,11 @@ University Data is linearly correlated. Involve other source
 - US news ranking 
 - Median of annual earning after 10-year enrollment
 
+## Presentation Slides for the Project  
+
+<iframe src="https://docs.google.com/a/njit.edu/presentation/d/14jwYE6xrb0MhvSKu_2kS2UAhPxuv5OX6siepOQKPEFY/edit?usp=sharing" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>  
+
+
 ### PostScript
 The motivation of this story was very personal. My adviser who is a distinguished professor in Physics, teaches strictly and the lectures are high quality. He likes the students who fully dedicate to the course. But many students choose physics course only for science credits, they want easy lecture easy finals no quizs and no gain in physics. That's why my professor got lower and lower rating when he maintains his teaching quality.
 

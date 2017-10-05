@@ -66,6 +66,11 @@ Gif 4. rcnn_pretrained
 <br>
 
 
+## Presentation Slides for the Project  
+
+<iframe src="https://docs.google.com/presentation/d/1IiZpzmw7kQ1sum6KFHlfa36mrPO87kO9pmgS0WF6JoE/edit?usp=sharing" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
+
+
 ## Future work
 
 Make it accurate for different seasons. 

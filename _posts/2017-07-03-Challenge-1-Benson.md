@@ -65,6 +65,12 @@ From three above figures, it is clear that weekdays have more entries than weeke
 
 ![Monday Schedule]({{ site.url }}/images/monday_schedule.png)
 
+
+## Presentation Slides for the Project  
+
+<iframe src="https://docs.google.com/presentation/d/1ZWMtsq8Ku_AHtkuUxEwEdO-NSpV1YDw9wDiYE6wMUgE/edit?usp=sharing" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>  
+
+
 ## Future Directions
 
 *The selected stations*
