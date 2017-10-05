@@ -119,7 +119,7 @@ University Data is linearly correlated. Involve other source
 
 ## Presentation Slides for the Project  
 
-<iframe src="https://docs.google.com/a/njit.edu/presentation/d/14jwYE6xrb0MhvSKu_2kS2UAhPxuv5OX6siepOQKPEFY/edit?usp=sharing" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>  
+<iframe src="https://docs.google.com/a/njit.edu/presentation/d/14jwYE6xrb0MhvSKu_2kS2UAhPxuv5OX6siepOQKPEFY/embed?start=true&loop=true&delayms=10000" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>  
 
 
 ### PostScript

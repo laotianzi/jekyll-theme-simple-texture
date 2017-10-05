@@ -21,7 +21,7 @@ Why not let the computer work, to save human's vision and time, alert us of inte
 
 On demand, for public security purposes, a system that can count pedestrians and report the speed is built, so it can alert people when there is too many pedestrians gathering or somebody is running at possible emergency situation. 
 
-## Result
+## Achievement
 In this project, the system focuses on two metrics, speed and count. 
 
 OpenCV trakcer APIs can track targets and gives speed, but it needs initial positions for targets, and in the camera, people will enter or exit every second. 
@@ -66,10 +66,8 @@ Gif 4. rcnn_pretrained
 <br>
 
 
-## Presentation Slides for the Project  
-
-<iframe src="https://docs.google.com/presentation/d/1IiZpzmw7kQ1sum6KFHlfa36mrPO87kO9pmgS0WF6JoE/edit?usp=sharing" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
-
+## Presentation Slides for the Project   
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT44rKRmetEj5jS-RvvgjuTRE9Y3jRYAsEA14ht_BgH7CbzpCD8pXzedx12AQDQObJC2EZRF_tpMn0k/embed?start=false&loop=true&delayms=5000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Future work
 
@@ -80,21 +78,26 @@ Make it accurate when people are really overlapped in the camera.
 ## Data
 Videos were downloaded from EarthCam
 
-#### Reference
+## Reference
 Real-time-object recognition
+
 https://medium.com/towards-data-science/building-a-real-time-object-recognition-app-with-tensorflow-and-opencv-b7a2b4ebdc32
 
 Background subtraction
+
 http://docs.opencv.org/trunk/d1/dc5/tutorial_background_subtraction.html 
 http://docs.opencv.org/trunk/db/d5c/tutorial_py_bg_subtraction.html
 
 Foreground detection
+
 https://www.youtube.com/watch?v=fSLDCKeM5YE
 
 Meanshift / camshift
+
 http://docs.opencv.org/3.2.0/db/df8/tutorial_py_meanshift.html
 
 TensorFLow Models
+
 https://softwaremill.com/counting-objects-with-faster-rcnn/
 https://github.com/datitran/object_detector_app/blob/master/object_detection/g3doc/detection_model_zoo.md 
 https://www.youtube.com/watch?v=YqoGPpFfQiA 

@@ -68,7 +68,7 @@ From three above figures, it is clear that weekdays have more entries than weeke
 
 ## Presentation Slides for the Project  
 
-<iframe src="https://docs.google.com/presentation/d/1ZWMtsq8Ku_AHtkuUxEwEdO-NSpV1YDw9wDiYE6wMUgE/edit?usp=sharing" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>  
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtDDztRmHWLn_UoKim8FirVvPV_bL45PTxBr3mhfOCAl0S6VEcRZ6MAdL_xfsuh4WMawBttIM3oAhm/embed?start=false&loop=true&delayms=5000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ## Future Directions

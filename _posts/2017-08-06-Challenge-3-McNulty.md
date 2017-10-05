@@ -33,8 +33,7 @@ Which country's temperature is changing a lot?
 
 ## Presentation Slides for the Project  
 
-<iframe src="https://docs.google.com/a/njit.edu/presentation/d/1LiSqvmUZycVTW9VIWG2Il9XVermFQLhN-sdkeZw9GCQ/edit?usp=sharing" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
-
+<iframe src="https://docs.google.com/a/njit.edu/presentation/d/1LiSqvmUZycVTW9VIWG2Il9XVermFQLhN-sdkeZw9GCQ/embed?start=true&loop=true&delayms=10000" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
 
 
 ### PostScript
