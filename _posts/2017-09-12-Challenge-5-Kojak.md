@@ -67,7 +67,7 @@ Gif 4. rcnn_pretrained
 
 
 ## Presentation Slides for the Project   
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT44rKRmetEj5jS-RvvgjuTRE9Y3jRYAsEA14ht_BgH7CbzpCD8pXzedx12AQDQObJC2EZRF_tpMn0k/embed?start=false&loop=true&delayms=5000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT44rKRmetEj5jS-RvvgjuTRE9Y3jRYAsEA14ht_BgH7CbzpCD8pXzedx12AQDQObJC2EZRF_tpMn0k/embed?start=false&loop=true&delayms=5000" frameborder="0"  width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Future work
 

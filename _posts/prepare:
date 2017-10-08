@@ -1,10 +1,13 @@
 prepare:
 
-- link to projects
-	- blog
+- link to projects on Employ
+	
 		-git repo
 			-notebook clean up
+		- blog
 		-slides
+
+
 projects:
 Person of Interest: OpenCV Tracking API | TensorFlow | Deep learning | AWS
 • Enable the camera watch for public security at New York Time Square.
@@ -26,13 +29,15 @@ Rating My Professors: Web Scraping | Linear Regression
 • Acquired professors and campus rating data from web.
 • Optimized linear regression models to find correlation between professors and campus rating.
 
-MTA
+MTA turnstile: pandas | statistics
 
 
 
 -interview questions
 	-what is the role of a data scientist and what actually is data science?
 		Data Scientist is the iterative process to acquire, clean the data and then build models, again check the result and goes back to Exploration process finally create the reports and
+
+		IT IS A CAREER TO EMBRASING FUTURE.
 
 	-what are the data structures in Python?
 		lists, tuples, dictionaries, strings, sets and frozensets
@@ -131,6 +136,12 @@ accomplish, agancy,
 3-month 
 2-hour interview, code challenge on NLP, 
 
+9.29 chase quick interview
+XXX call you next spring
+my question:
+1. which team, 
+2. which role?
+3. what team?
 
 10.3 interveiew with Next Rev Technology OR sirrom:
 
@@ -141,9 +152,10 @@ http://sirrom.io/:
 	Sirrom.io delivers highly complex big data analytics and cloud based architectures designed for performance and scalability. Our reputation is backed by leading data scientists and elite cloud architects created through a network of company referrals. We are a rapidly expanding organization with work locations in Maryland, DC, and New York.
 	Our mission is to provide customers with the skills, training, and professional services to become successful in the Big Data and Cloud Architecture space. We deliver complete solutions from prototyping to production, while implementing cost-effective, scalable solutions with the latest technology.
 
-Question for Jason: 1. why do you want to have your own company? /
-					2. what kind of mentorship will I have?
-					3. 
+Question for Jason: 1. what drives you (why do you want) to have your own company? /
+					2. what client, working pipeline, case by case?
+					3. what kind of mentorship will I have?
+					4. can I work voluntarily?
 
 regression
 NLP
