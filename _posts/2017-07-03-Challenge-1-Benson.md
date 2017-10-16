@@ -85,6 +85,7 @@ Maybe it is hard to draw someone's attention when they are in a hurry to work, o
 <br>
 It is true that people will not contribute with low income but it is not certain that rich people are willing to donate. 
 
+## You can see my technical implementations [here](https://github.com/laotianzi/mta_w1)
 
 
 

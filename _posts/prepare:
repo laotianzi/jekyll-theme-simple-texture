@@ -9,7 +9,7 @@ prepare:
 
 
 projects:
-Person of Interest: OpenCV Tracking API | TensorFlow | Deep learning | AWS
+project5_Person of Interest: OpenCV Tracking API | TensorFlow | Deep learning | AWS
 • Enable the camera watch for public security at New York Time Square.
 • Developing a detection and tracking system for one of the public cameras.
 • Setting notification of abnormal counts of people and their moving speed.
@@ -19,17 +19,17 @@ Technology Trend in New York Times: rest API | NLP | LDA | Word2Vec | PCA | Clus
 • Summarized top topics from frontier technology news in 1945-2017 using New York Times API.
 • Extracted public relationship network of aimed company from mass data.
 
-Climate Change and Human activities: AutoRegression | Random Forests | Flask | D3
+project3_Climate Change and Human activities: AutoRegression | Random Forests | Flask | D3
 • Predicted which countries' temperature would change severely with climate and country data.
 • Applied AutoRegression method to avoid outliers for temperature categories in countries.
 • Gave interactive data visualizations of results.
 
-Rating My Professors: Web Scraping | Linear Regression
+project2_Rating My Professors: Web Scraping | Linear Regression
 • Revealed key factors that campuses get higher rating.
 • Acquired professors and campus rating data from web.
 • Optimized linear regression models to find correlation between professors and campus rating.
 
-MTA turnstile: pandas | statistics
+project1_MTA turnstile: pandas | statistics
 
 
 
@@ -170,7 +170,9 @@ AWS, SQL,
 10.1
 10.2
 
-
+interview with Patrick
+1. introductino of his projects
+2. what can I do
 
 
 

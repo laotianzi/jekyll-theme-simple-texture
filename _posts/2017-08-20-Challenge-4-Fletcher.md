@@ -160,7 +160,7 @@ Figure 5. Google relationship
 
 
 
-#### Reference
+## Reference
 https://en.wikipedia.org/wiki/List_of_years_in_science
 <br>
 https://www.codeschool.com/blog/2016/03/25/machine-learning-working-with-stop-words-stemming-and-spam/
@@ -168,3 +168,5 @@ https://www.codeschool.com/blog/2016/03/25/machine-learning-working-with-stop-wo
 https://github.com/smilli/py-corenlp
 <br>
 http://lab.hakim.se/reveal-js/#/
+
+## You can see my technical implementations [here](https://github.com/laotianzi/New_York_Times_TechNews)

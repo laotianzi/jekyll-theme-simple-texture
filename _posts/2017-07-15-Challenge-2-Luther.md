@@ -117,13 +117,14 @@ University Data is linearly correlated. Involve other source
 - US news ranking 
 - Median of annual earning after 10-year enrollment
 
-## Presentation Slides for the Project  
+## Presentation Slides for the Project   
 
-<iframe src="https://docs.google.com/a/njit.edu/presentation/d/14jwYE6xrb0MhvSKu_2kS2UAhPxuv5OX6siepOQKPEFY/embed?start=true&loop=true&delayms=10000" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>  
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRrsNU8_gN8xLQPnH5ZyIsdtzy91t5_Pu8de1qJdAcAGsdq_f_ZfC9oqUPlVNL3AOUk5Dbsm563UCP2/embed?start=true&loop=false&delayms=5000" frameborder="0" width="700" height="422" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### PostScript
 The motivation of this story was very personal. My adviser who is a distinguished professor in Physics, teaches strictly and the lectures are high quality. He likes the students who fully dedicate to the course. But many students choose physics course only for science credits, they want easy lecture easy finals no quizs and no gain in physics. That's why my professor got lower and lower rating when he maintains his teaching quality.
 
-#### Reference
+### Reference
 How to resize figure: https://github.com/hakimel/reveal.js/issues/1349
+
+You can see my technical implementations [here](https://github.com/laotianzi/rating_my_professor)

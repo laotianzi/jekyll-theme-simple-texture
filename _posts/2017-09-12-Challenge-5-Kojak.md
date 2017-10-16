@@ -101,3 +101,5 @@ TensorFLow Models
 https://softwaremill.com/counting-objects-with-faster-rcnn/
 https://github.com/datitran/object_detector_app/blob/master/object_detection/g3doc/detection_model_zoo.md 
 https://www.youtube.com/watch?v=YqoGPpFfQiA 
+
+## You can see my technical implementations [here](https://github.com/laotianzi/person_of_interest)

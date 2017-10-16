@@ -317,5 +317,7 @@ function displayYear(year) {
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTm_jltFXLi381D9jKuGsMEfKOqn0eSFNmjEGy4JPd3U70ZrmBv-9M5vkP7TdYtLFm3K42953L3U-zd/embed?start=false&loop=true&delayms=5000" frameborder="0" width="700" height="422"></iframe>
 
-### Reference
+## Reference
 How to resize figure: https://github.com/hakimel/reveal.js/issues/1349
+
+## You can see my technical implementations [here](https://github.com/laotianzi/climate_change)
